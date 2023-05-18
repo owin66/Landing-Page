@@ -77,7 +77,7 @@ button {
 /* header */
 
 .container {
-  min-width: 1100px;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -211,4 +211,71 @@ button {
 }
 .card__img:nth-child(3n) {
   background-color: var(--txt-dark-2);
+}
+
+/* main-2 */
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  max-width: 70ch;
+  margin-top: 40px;
+}
+
+.txt__author {
+  align-self: flex-end;
+  color: var(--bg-dark);
+  font-weight: var(--fontWeight-2);
+}
+
+.txt__big {
+  font-size: var(--fontSize-4);
+  color: var(--bg-dark);
+  font-weight: var(--fontWeight-0);
+}
+
+/* footer */
+
+.section--4 {
+  background-color: var(--txt-light);
+  padding-block: var(--space-3) var(--space-4);
+  padding-inline: var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--4 .cta {
+  gap: 8px;
+  border-radius: 8px;
+  background-color: var(--cta);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: var(--space-2);
+  padding-inline: var(--space-4);
+  padding: 40;
+}
+.section--4 .cta__textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section--4 .cta__textBox-big {
+  font-weight: var(--fontWeight-2);
+  font-size: var(--fontSize-3);
+}
+.button--cta--transparent {
+  background-color: transparent;
+  border: 2px solid var(--txt-grey);
+}
+.button--cta {
+  font-size: var(--fontSize-1);
+  font-weight: var(--fontWeight-2);
+  background-color: var(--cta);
+}
+.button {
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
 }
