@@ -226,13 +226,13 @@ button {
   align-self: flex-end;
   color: var(--bg-dark);
   font-weight: var(--fontWeight-2);
-  text-align: justify;
 }
 
 .txt__big {
   font-size: var(--fontSize-4);
   color: var(--bg-dark);
   font-weight: var(--fontWeight-0);
+  text-align: justify;
 }
 
 /* footer */
