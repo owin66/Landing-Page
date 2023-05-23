@@ -226,6 +226,7 @@ button {
   align-self: flex-end;
   color: var(--bg-dark);
   font-weight: var(--fontWeight-2);
+  text-align: justify;
 }
 
 .txt__big {
